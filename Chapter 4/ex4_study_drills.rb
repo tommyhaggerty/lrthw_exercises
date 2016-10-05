@@ -11,9 +11,11 @@ passengers = 90
 # The following use the above variables to define new variables
 # This calculates the number of cars not being driven
 cars_not_driven = cars - drivers
-# This is the number of cars that are able to be driven given the number of drivers
+# This is the number of cars that are able to be driven given the number
+# of drivers
 cars_driven = drivers
-# This is the number of available spaces for passengers given the number of cars driven
+# This is the number of available spaces for passengers given the number
+# of cars driven
 carpool_capacity = cars_driven * space_in_a_car
 # This calculates the number of passengers per car
 average_passengers_per_car = passengers / cars_driven
